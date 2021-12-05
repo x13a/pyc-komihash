@@ -10,5 +10,5 @@ Library
 
   import komihash
   
-  hash64 = komihash.komihash(b'test1')
+  hash64 = komihash.hash64(b'test1')
   assert hash64 == 5270236647356506095
